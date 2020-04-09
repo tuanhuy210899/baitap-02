@@ -15,7 +15,8 @@ function isLeapYear($year){
 ?>
 <form action="#" method="post">
 	<p>Moi ban nhap nam</p>
-	<input type="text" name="year" value="<$year?>" />
+	<input type="text" name="year" value="<?=$year?>" />
+	<input type="submit" value="Kết quả">
 </form>
 <?php
 if(isLeapYear($year))
