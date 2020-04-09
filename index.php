@@ -12,9 +12,12 @@ function isLeapYear($year){
 		return true;
 	return false;
 }
-/*---------------------------------------------------*/
-
-$year = 2016;
+?>
+<form action="#" method="post">
+	<p>Moi ban nhap nam</p>
+	<input type="text" name="year" value="<$year?>" />
+</form>
+<?php
 if(isLeapYear($year))
 	echo $year . ' la nam nhuan.';
 else
