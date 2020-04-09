@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="vi" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <title>Cloud-Php-Ex000</title>
-  <meta charset="utf-8">
-</head>
-<body>
-
-  <?php
+<?php
 // khai báo các biến toàn cầu
 $heso_a = "";
 $heso_b = "";
@@ -100,5 +92,3 @@ if (is_numeric ( $GLOBALS ['heso_a'] ) && is_numeric ( $GLOBALS ['heso_b'] )
     echo ("Giá trị input không hợp lệ!");
 }
 ?>
-</body>
-</html>
